@@ -2,11 +2,11 @@ from tkinter import *
 from PIL import Image, ImageTk
 window = Tk()
 window.geometry("500x500")
-img1 = ImageTk.PhotoImage(Image.open("image/1.jpg").resize((500,500)))
-img2 = ImageTk.PhotoImage(Image.open("image/2.jpg").resize((500,500)))
-img3 = ImageTk.PhotoImage(Image.open("image/3.jpg").resize((500,500)))
-img4 = ImageTk.PhotoImage(Image.open("image/4.jpg").resize((500,500)))
-img5 = ImageTk.PhotoImage(Image.open("image/5.jpg").resize((500,500)))
+img1 = ImageTk.PhotoImage(Image.open("images/1.jpg").resize((500,500)))
+img2 = ImageTk.PhotoImage(Image.open("images/2.jpg").resize((500,500)))
+img3 = ImageTk.PhotoImage(Image.open("images/3.jpg").resize((500,500)))
+img4 = ImageTk.PhotoImage(Image.open("images/4.jpg").resize((500,500)))
+img5 = ImageTk.PhotoImage(Image.open("images/5.jpg").resize((500,500)))
 
 
 count = 1
